@@ -1,0 +1,25 @@
+
+.headCard {
+  position: relative;
+  background-color: #1677ff;
+  margin-left: 15px ;
+  margin-right: 15px ;
+}
+
+.tabs {
+  position: relative;
+  width: 756px;
+  background-color : #ffffff;
+  margin-top: 30px;
+  margin-left: 15px ;
+
+  :global {
+    .ant-tabs-nav .ant-tabs-tab-active {
+      background-color: #1677ff;
+    }
+  }
+}
+
+
+
+
